@@ -7,50 +7,31 @@
 * {
     margin: 0;
     padding: 0;
-
-    /* box-sizing: border-box; */
 }
-/* font-size: 62.5%; */
+
 html {
     scroll-behavior: smooth;
     
 }
 
-
-/* Scroll to top
----------------------------------- */
 #toTop {
     display: none;
-    /* Hidden by default */
     position: fixed;
-    /* Fixed/sticky position */
     bottom: 35px;
-    /* Place the button at the bottom of the page */
     right: 8px;
-    /* Place the button 30px from the right */
     z-index: 99;
-    /* Make sure it does not overlap */
     border: none;
-    /* Remove borders */
     outline: none;
-    /* Remove outline */
     background-color: #996640;
-    /* Set a background color */
     color: white;
-    /* Text color */
     cursor: pointer;
-    /* Add a mouse pointer on hover */
     padding: 15px;
-    /* Some padding */
     border-radius: 10px;
-    /* Rounded corners */
     font-size: 1rem;
-    /* Increase font size */
 }
 
 #toTop:hover {
     background-color: red;
-    /* Add a dark-grey background on hover */
 }
 
 
@@ -63,7 +44,6 @@ html {
 .navHover :hover {
     color: #996640 ! important;
     font-weight: bolder;
-    /* letter-spacing: 0.1px; */
     text-transform: uppercase;
 }
 
@@ -93,7 +73,6 @@ html {
     font-weight: bolder;
     font-size: 1.2rem;
     letter-spacing: 6px;
-    /* margin-bottom: 0; */
     margin-top: 0.5rem;
     
 }
@@ -104,12 +83,9 @@ html {
     font-weight: bolder;
     font-size: 0.8rem;
     letter-spacing: 6px;
-    /* margin-bottom: 0; */
     margin-top: 1.5rem;
     
 }
-
-
 
 .headFont i{
     color: whitesmoke;
@@ -162,7 +138,6 @@ html {
 
 .map-container {
     overflow: hidden;
-    /* padding-bottom:56.25%; */
     position: relative;
     height: 0;
 }
@@ -174,8 +149,6 @@ html {
     width: 100%;
     position: absolute;
 }
-
-
 
 .gallery-block{
 	padding-bottom: 60px;
@@ -250,11 +223,3 @@ html {
     }
     
 }
-/* 
-@media (max-width: 0px) {
-
-    .headingXS{
-        display: block;
-    }
-    
-} */
