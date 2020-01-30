@@ -223,4 +223,7 @@ html {
         display: block;
     }
     
+    #auth{
+        width: 45%;
+    }
 }
