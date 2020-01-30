@@ -210,9 +210,9 @@ html {
     
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
 
-	#arrowAnim{
+	#toTop{
         display: none;
     }
     .heading{
