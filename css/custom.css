@@ -28,10 +28,11 @@ html {
     padding: 15px;
     border-radius: 10px;
     font-size: 1rem;
+    width: 3.8rem;
 }
 
 #toTop:hover {
-    background-color: red;
+    background-color:#9967404d;
 }
 
 
