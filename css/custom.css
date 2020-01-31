@@ -226,4 +226,8 @@ html {
     #auth{
         width: 45%;
     }
+
+    * {
+        font-size: 60%;
+    }
 }
