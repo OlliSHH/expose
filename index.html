@@ -17,39 +17,46 @@
 
 <body id="body"  data-spy="scroll" data-target=".navbar" data-offset="50">
 
-
-
-  <nav class="navbar sticky-top navbar-light bg-light">
-    <a class="navbar-brand titles" href="https://auth-realestate.de/"><img id="auth" src="./pics/auth-real-estate-advisor.png"
-        width="80%"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-3 justify-content-end text-left">
-        <!-- <li class="nav-item navHover">
-          <a class="nav-link navBorder" href="#body" style="width: 4rem;">Home</a>
-        </li> -->
-        <li class="nav-item navHover">
-          <a class="nav-link" href="#keyfacts" style="width: 5.4rem;">Keyfacts</a>
-        </li>
-        <li class="nav-item navHover">
-          <a class="nav-link" href="#flächen" style="width: 5.2rem; min-width: 4rem;">Flächen</a>
-        </li>
-        <li class="nav-item navHover">
-          <a class="nav-link" href="#ansichten" style="width: 6.4rem;">Ansichten</a>
-        </li>
-        <li class="nav-item navHover">
-          <a class="nav-link" href="#lage" style="width: 3.6rem;">Lage</a>
-        </li>
-        <li class="nav-item navHover">
-          <a class="nav-link" href="#kontakt" style="width: 5.1rem;">Kontakt</a>
-        </li>
-      </ul>
+  <header>
+    <div class="bg-dark collapse" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4 class="text-white">About</h4>
+            <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <ul class="list-unstyled">
+              <li class="nav-item navHover">
+                <a class="nav-link text-white" href="#keyfacts" style="width: 5.4rem;">Keyfacts</a>
+              </li>
+              <li class="nav-item navHover">
+                <a class="nav-link text-white" href="#flächen" style="width: 5.2rem; min-width: 4rem;">Flächen</a>
+              </li>
+              <li class="nav-item navHover">
+                <a class="nav-link text-white" href="#ansichten" style="width: 6.4rem;">Ansichten</a>
+              </li>
+              <li class="nav-item navHover">
+                <a class="nav-link text-white" href="#lage" style="width: 3.6rem;">Lage</a>
+              </li>
+              <li class="nav-item navHover">
+                <a class="nav-link text-white" href="#kontakt" style="width: 5.1rem;">Kontakt</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-  </nav>
+    <div class="navbar navbar-light bg-light">
+      <div class="container d-flex justify-content-between">
+        <a class="navbar-brand titles" href="https://auth-realestate.de/"><img id="auth" src="./pics/auth-real-estate-advisor.png"
+          width="80%"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
 
   
 
@@ -100,11 +107,8 @@
     </div>
   </div>
 
-
- <div class="container navPadding" id="keyfacts" style="height: 6.5rem;"></div>
-
-  <div class="container-fluid">
-    <div class="row mb-5" style="background-color: #996640;">
+  <div class="container-fluid" id="keyfacts">
+    <div class="row mb-5 mt-5" style="background-color: #996640;">
       <div class="container-fluid ml-1" style="background-color: #996640; height: 3rem;">
         <p class="headFont" ><i class="arRow fa fa-angle-double-right"></i><i class="arRow fa fa-angle-double-right"></i><i class="arRow fa fa-angle-double-right"></i>&nbsp keyfacts</p>
         <p class="text-left" style="color: #996640; font-weight: 1rem;">__________________________________________________________________</p>
@@ -166,10 +170,9 @@
     </div>
       <br><br><br><br>
 
-      <div class="container navPadding" id="flächen" style="height: 6.5rem;"></div>
 
-      <div class="container-fluid">
-        <div class="row mb-5" style="background-color: #996640;">
+      <div class="container-fluid" id="flächen">
+        <div class="row mb-5 mt-5" style="background-color: #996640;">
           <div class="container-fluid ml-1" style="background-color: #996640; height: 3rem;">
             <p class="headFont" ><i class="arRow fa fa-angle-double-right"></i><i class="arRow fa fa-angle-double-right"></i><i class="arRow fa fa-angle-double-right"></i>&nbsp flächenangebot</p>
             <p class="text-left" style="color: #996640; font-weight: 1rem;">__________________________________________________________________</p>
@@ -249,12 +252,10 @@
 
 
     <br><br><br><br>
-
-    <div class="container navPadding" id="ansichten" style="height: 6.5rem;"></div>
     
 
-      <div class="container-fluid">
-        <div class="row mb-1" style="background-color: #996640;">
+      <div class="container-fluid" id="ansichten">
+        <div class="row mb-1 mt-5" style="background-color: #996640;">
           <div class="container-fluid ml-1" style="background-color: #996640; height: 3rem;">
             <p class="headFont" ><i class="arRow fa fa-angle-double-right"></i><i class="arRow fa fa-angle-double-right"></i><i class="arRow fa fa-angle-double-right"></i>&nbsp ansichten</p>
             <p class="text-left" style="color: #996640; font-weight: 1rem;">__________________________________________________________________</p>
@@ -346,11 +347,9 @@
         </div>
       </section>
 
-      <div class="container navPadding" id="lage" style="height: 6.5rem;"></div>
 
-
-      <div class="container-fluid">
-        <div class="row mb-5" style="background-color: #996640;">
+      <div class="container-fluid" id="lage">
+        <div class="row mb-5 mt-5" style="background-color: #996640;">
           <div class="container-fluid ml-1" style="background-color: #996640; height: 3rem;">
             <p class="headFont"><i class="arRow fa fa-angle-double-right"></i><i class="arRow fa fa-angle-double-right"></i><i class="arRow fa fa-angle-double-right"></i>&nbsp lage</p>
             <p class="text-left" style="color: #996640; font-weight: 1rem;">__________________________________________________________________</p>
@@ -377,12 +376,10 @@
       <br>
     </div>
 
-    <div class="container navPadding" id="kontakt" style="height: 6.5rem;"></div>
 
-
-    <div class="container-fluid">
+    <div class="container-fluid" id="kontakt">
       <div class="row mb-5" style="background-color: #996640;">
-        <div class="container-fluid ml-1" style="background-color: #996640; height: 3rem;">
+        <div class="container-fluid ml-1 mt-5" style="background-color: #996640; height: 3rem;">
           <p class="headFont"><i class="arRow fa fa-angle-double-right"></i><i class="arRow fa fa-angle-double-right"></i><i class="arRow fa fa-angle-double-right"></i>&nbsp kontakt</p>
           <p class="text-left" style="color: #996640; font-weight: 1rem;">__________________________________________________________________</p>
 
