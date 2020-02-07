@@ -44,7 +44,7 @@ html {
 
 .navHover :hover {
     color: #996640 ! important;
-    font-weight: bolder;
+    font-weight: bold;
     text-transform: uppercase;
 }
 
@@ -210,9 +210,53 @@ html {
     
 }
 
-@media (max-width: 770px) {
 
-	#toTop{
+@media (min-width: 321px) {
+
+	/* #toTop{
+        display: none;
+    }
+    .heading{
+        display: none;
+    }
+
+    .headingXS{
+        display: block;
+    }
+    
+    #auth{
+        width: 25%;
+    } */
+
+    * {
+        font-size: 200% !important;
+    }
+}
+
+@media (min-width: 576px) {
+
+	/* #toTop{
+        display: none;
+    }
+    .heading{
+        display: none;
+    }
+
+    .headingXS{
+        display: block;
+    }
+    
+    #auth{
+        width: 25%;
+    } */
+
+    * {
+        font-size: 95% !important;
+    }
+}
+@media (max-width: 768px) {
+
+	/* #toTop{
         display: none;
     }
     .heading{
@@ -225,9 +269,51 @@ html {
     
     #auth{
         width: 45%;
-    }
+    } */
 
     * {
-        font-size: 95%;
+        font-size: 95% !important;
+    }
+}
+@media (min-width: 992px) {
+
+	/* #toTop{
+        display: none;
+    }
+    .heading{
+        display: none;
+    }
+
+    .headingXS{
+        display: block;
+    }
+    
+    #auth{
+        width: 75%;
+    } */
+
+    * {
+        font-size: 100% !important;
+    }
+}
+@media (min-width: 1200px) {
+
+	/* #toTop{
+        display: none;
+    }
+    .heading{
+        display: none;
+    }
+
+    .headingXS{
+        display: block;
+    }
+    
+    #auth{
+        width: 45%;
+    } */
+
+    * {
+        font-size: 101% !important;
     }
 }
