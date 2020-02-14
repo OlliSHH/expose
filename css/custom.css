@@ -204,4 +204,14 @@ div p{
     .tabFont{
         font-size:2.4vw !important;
     }
+    .navbar-toggler-icon {
+    
+        font-size:3vw !important;
+        background-size: 50% 50%;
+    }
+
+    #auth{
+        width: 50%;
+    }
 }
+
