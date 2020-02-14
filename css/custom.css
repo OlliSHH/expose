@@ -22,7 +22,7 @@ html {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: #996640;
+    background-color: #99674077;
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -32,7 +32,7 @@ html {
 }
 
 #toTop:hover {
-    background-color:#996740cb;
+    background-color:#996740;
 }
 
 
@@ -44,7 +44,7 @@ html {
 
 .navHover :hover {
     color: #996640 ! important;
-    font-weight: bold;
+    font-weight: bold #996640;
     text-transform: uppercase;
 }
 
@@ -54,9 +54,23 @@ html {
     bottom: 6vw;
     max-width: 60% !important;
     background-color: rgba(255, 255, 255, 0.705);
+    font-size:2vw;
     
 }
 
+.underLineH{
+    color: #996640;
+    border-bottom-style: solid;
+    width: 44vw;
+    margin-bottom: 14px;
+}
+
+.underLine{
+    color: #996640;
+    border-bottom-style: solid;
+    width: 70vw;
+    margin-bottom: 14px;
+}
 
 
 
@@ -65,7 +79,7 @@ html {
     text-transform: uppercase;
     font-weight: bolder;
     letter-spacing: 6px;
-    font-size:2.5vw;
+    font-size:1.6vw;
     
 }
 
