@@ -63,6 +63,7 @@ html {
     border-bottom-style: solid;
     width: 44vw;
     margin-bottom: 14px;
+    border-width: 2px;
 }
 
 .underLine{
@@ -70,6 +71,7 @@ html {
     border-bottom-style: solid;
     width: 70vw;
     margin-bottom: 14px;
+    border-width: 2px;
 }
 
 
@@ -98,7 +100,7 @@ html {
 
 .angebot {
     color: #996740;
-    font-size:2.5vw;
+    font-size:2vw;
     margin-top: 0.2rem;
 }
 
